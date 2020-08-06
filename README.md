@@ -1,6 +1,5 @@
-# Unspash-With-SwitUI
+# Unsplash-With-SwiftUI
 
-# TikTokPlayer Using SwiftUI
 
 1. Basic UI using SwiftUI
 
