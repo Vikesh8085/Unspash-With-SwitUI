@@ -141,8 +141,6 @@ struct HomeView: View {
                             self.homeImages.searchQueryFromAPI(searchQuery: self.searchQuery, currentPage: self.currentPage)
                         }) {
                             Text("Refresh ")
-                                .font(.title)
-                                .fontWeight(.semibold)
                                 .foregroundColor(.black)
                                 .background(Color.white.opacity(0.45))
                                 .cornerRadius(15)
@@ -159,8 +157,6 @@ struct HomeView: View {
                             self.homeImages.fetchUnspashPhoto()
                         }) {
                             Text("Refresh ")
-                                .font(.title)
-                                .fontWeight(.semibold)
                                 .foregroundColor(.black)
                                 .background(Color.white.opacity(0.45))
                                 .cornerRadius(15)
