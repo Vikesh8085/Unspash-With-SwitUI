@@ -27,7 +27,7 @@ struct HomeView: View {
     @State var searchQuery = ""
     @State var currentPage = 1
     @ObservedObject var homeImages = FetchData()
-    
+    //
     
     var body: some View {
         VStack(spacing: 0){
